@@ -1,0 +1,552 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36medu.yu.cs:stage5[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding stage5 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 16 source files to /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/target/classes
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/Util.java: /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/Util.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/Util.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/JavaRunner.java: /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/JavaRunner.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/JavaRunner.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 8 source files to /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/target/test-classes
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/test/java/edu/yu/cs/com3800/CorrectnessTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/test/java/edu/yu/cs/com3800/CorrectnessTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.5.0:test[m [1m(default-test)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running edu.yu.cs.com3800.[1mCorrectnessTest[m
+3: switching from LOOKING to OBSERVER
+0: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to LEADING
+1: switching from LOOKING to FOLLOWING
+Life, the universe, and everything means 42
+Life, the universe, and everything means 42
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.15 s -- in edu.yu.cs.com3800.[1mCorrectnessTest[m
+[[1;34mINFO[m] Running edu.yu.cs.com3800.[1mScalabilityTest[m
+9: switching from LOOKING to OBSERVER
+0: switching from LOOKING to FOLLOWING
+7: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to FOLLOWING
+4: switching from LOOKING to FOLLOWING
+8: switching from LOOKING to LEADING
+5: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+3: switching from LOOKING to FOLLOWING
+6: switching from LOOKING to FOLLOWING
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.970 s -- in edu.yu.cs.com3800.[1mScalabilityTest[m
+[[1;34mINFO[m] Running edu.yu.cs.com3800.stage5.[1mLeaderElectionTest[m
+8: switching from LOOKING to OBSERVER
+2: switching from LOOKING to FOLLOWING
+3: switching from LOOKING to FOLLOWING
+6: switching from LOOKING to FOLLOWING
+7: switching from LOOKING to FOLLOWING
+5: switching from LOOKING to FOLLOWING
+4: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+0: switching from LOOKING to LEADING
+Server 8 votes 0
+Server 0 votes 0
+Server 1 votes 0
+Server 2 votes 0
+Server 3 votes 0
+Server 4 votes 0
+Server 5 votes 0
+Server 6 votes 0
+Server 7 votes 0
+9: switching from LOOKING to OBSERVER
+8: switching from LOOKING to LEADING
+4: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+7: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to FOLLOWING
+5: switching from LOOKING to FOLLOWING
+0: switching from LOOKING to FOLLOWING
+3: switching from LOOKING to FOLLOWING
+6: switching from LOOKING to FOLLOWING
+Server 9 votes 8
+Server 0 votes 8
+Server 1 votes 8
+Server 2 votes 8
+Server 3 votes 8
+Server 4 votes 8
+Server 5 votes 8
+Server 6 votes 8
+Server 7 votes 8
+Server 8 votes 8
+8: switching from LOOKING to OBSERVER
+2: switching from LOOKING to FOLLOWING
+0: switching from LOOKING to FOLLOWING
+3: switching from LOOKING to FOLLOWING
+7: switching from LOOKING to LEADING
+4: switching from LOOKING to FOLLOWING
+5: switching from LOOKING to FOLLOWING
+6: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+Server 8 votes 7
+Server 0 votes 7
+Server 1 votes 7
+Server 2 votes 7
+Server 3 votes 7
+Server 4 votes 7
+Server 5 votes 7
+Server 6 votes 7
+Server 7 votes 7
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.535 s -- in edu.yu.cs.com3800.stage5.[1mLeaderElectionTest[m
+[[1;34mINFO[m] Running edu.yu.cs.com3800.stage5.[1mStage5Test[m
+4: switching from LOOKING to OBSERVER
+1: switching from LOOKING to FOLLOWING
+3: switching from LOOKING to LEADING
+2: switching from LOOKING to FOLLOWING
+0: switching from LOOKING to FOLLOWING
+0: no heartbeat from server 3 - SERVER FAILED
+0: switching from FOLLOWING to LOOKING
+1: no heartbeat from server 3 - SERVER FAILED
+1: switching from FOLLOWING to LOOKING
+0: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to LEADING
+4: no heartbeat from server 3 - SERVER FAILED
+2: no heartbeat from server 3 - SERVER FAILED
+2: switching from FOLLOWING to LOOKING
+2: switching from LOOKING to FOLLOWING
+[1, 2, 4]=[1, 2, 4]
+[0, 2, 4]=[0, 2, 4]
+[0, 1, 4]=[0, 1, 4]
+[0, 1, 2]=[0, 1, 2]
+9: switching from LOOKING to OBSERVER
+3: switching from LOOKING to FOLLOWING
+8: switching from LOOKING to LEADING
+6: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+4: switching from LOOKING to FOLLOWING
+7: switching from LOOKING to FOLLOWING
+5: switching from LOOKING to FOLLOWING
+0: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to FOLLOWING
+5: no heartbeat from server 8 - SERVER FAILED
+5: switching from FOLLOWING to LOOKING
+3: no heartbeat from server 8 - SERVER FAILED
+3: switching from FOLLOWING to LOOKING
+4: no heartbeat from server 8 - SERVER FAILED
+4: switching from FOLLOWING to LOOKING
+2: no heartbeat from server 8 - SERVER FAILED
+2: switching from FOLLOWING to LOOKING
+6: no heartbeat from server 8 - SERVER FAILED
+6: switching from FOLLOWING to LOOKING
+1: no heartbeat from server 8 - SERVER FAILED
+1: switching from FOLLOWING to LOOKING
+7: no heartbeat from server 8 - SERVER FAILED
+7: switching from FOLLOWING to LOOKING
+6: switching from LOOKING to FOLLOWING
+4: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+7: switching from LOOKING to LEADING
+3: switching from LOOKING to FOLLOWING
+5: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to FOLLOWING
+9: no heartbeat from server 8 - SERVER FAILED
+0: no heartbeat from server 8 - SERVER FAILED
+0: switching from FOLLOWING to LOOKING
+0: switching from LOOKING to FOLLOWING
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful instant job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+Received a successful delayed job
+[1, 2, 3, 4, 5, 6, 7, 9]=[1, 2, 3, 4, 5, 6, 7, 9]
+[0, 2, 3, 4, 5, 6, 7, 9]=[0, 2, 3, 4, 5, 6, 7, 9]
+[0, 1, 3, 4, 5, 6, 7, 9]=[0, 1, 3, 4, 5, 6, 7, 9]
+[0, 1, 2, 4, 5, 6, 7, 9]=[0, 1, 2, 4, 5, 6, 7, 9]
+[0, 1, 2, 3, 5, 6, 7, 9]=[0, 1, 2, 3, 5, 6, 7, 9]
+[0, 1, 2, 3, 4, 6, 7, 9]=[0, 1, 2, 3, 4, 6, 7, 9]
+[0, 1, 2, 3, 4, 5, 7, 9]=[0, 1, 2, 3, 4, 5, 7, 9]
+[0, 1, 2, 3, 4, 5, 6, 9]=[0, 1, 2, 3, 4, 5, 6, 9]
+[0, 1, 2, 3, 4, 5, 6, 7]=[0, 1, 2, 3, 4, 5, 6, 7]
+4: switching from LOOKING to OBSERVER
+0: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to FOLLOWING
+3: switching from LOOKING to LEADING
+0: no heartbeat from server 3 - SERVER FAILED
+0: switching from FOLLOWING to LOOKING
+1: no heartbeat from server 3 - SERVER FAILED
+1: switching from FOLLOWING to LOOKING
+2: no heartbeat from server 3 - SERVER FAILED
+2: switching from FOLLOWING to LOOKING
+1: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to LEADING
+0: switching from LOOKING to FOLLOWING
+4: no heartbeat from server 3 - SERVER FAILED
+Received a successful job
+Received a successful job
+Received a successful job
+[1, 2, 4]=[1, 2, 4]
+[0, 2, 4]=[0, 2, 4]
+[0, 1, 4]=[0, 1, 4]
+[0, 1, 2]=[0, 1, 2]
+3: switching from LOOKING to OBSERVER
+1: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to LEADING
+0: switching from LOOKING to FOLLOWING
+3: no heartbeat from server 0 - SERVER FAILED
+2: no heartbeat from server 0 - SERVER FAILED
+1: no heartbeat from server 0 - SERVER FAILED
+[2, 3]=[2, 3]
+[1, 3]=[1, 3]
+[1, 2]=[1, 2]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 296.6 s -- in edu.yu.cs.com3800.stage5.[1mStage5Test[m
+[[1;34mINFO[m] Running edu.yu.cs.com3800.[1mUtilitiesTest[m
+Checking for a regular server
+11: switching from LOOKING to OBSERVER
+Checking for an observer
+Checking for a regular server
+11: switching from LOOKING to OBSERVER
+Checking for an observer
+Checking for a regular server
+11: switching from LOOKING to OBSERVER
+Checking for an observer
+Checking for a regular server
+11: switching from LOOKING to OBSERVER
+Checking for an observer
+Checking for a regular server
+11: switching from LOOKING to OBSERVER
+Checking for an observer
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s -- in edu.yu.cs.com3800.[1mUtilitiesTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 35, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 16 source files to /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/target/classes
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/Util.java: /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/Util.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/Util.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/JavaRunner.java: /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/JavaRunner.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/main/java/edu/yu/cs/com3800/JavaRunner.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 8 source files to /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/target/test-classes
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/test/java/edu/yu/cs/com3800/CorrectnessTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/src/test/java/edu/yu/cs/com3800/CorrectnessTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.5.0:test[m [1m(default-test)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Skipping execution of surefire because it has already been run for this configuration
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mstage5[0;1m ---[m
+[[1;34mINFO[m] Building jar: /mnt/c/Users/shimm/coding/Greengart_Shimon_2018998974/com3800/stage5/target/stage5-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  05:58 min
+[[1;34mINFO[m] Finished at: 2024-12-31T20:34:46-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+7: switching from LOOKING to OBSERVER
+Created gateway id 7 listening at port 8888
+5: switching from LOOKING to FOLLOWING
+6: switching from LOOKING to LEADING
+4: switching from LOOKING to FOLLOWING
+2: switching from LOOKING to FOLLOWING
+1: switching from LOOKING to FOLLOWING
+0: switching from LOOKING to FOLLOWING
+3: switching from LOOKING to FOLLOWING
+Active Servers:
+id: 0 FOLLOWER
+id: 1 FOLLOWER
+id: 2 FOLLOWER
+id: 3 FOLLOWER
+id: 4 FOLLOWER
+id: 5 FOLLOWER
+id: 6 LEADER
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//11172
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//15992
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//3941
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//14824
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//18461
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//9255
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//21375
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//30513
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//17495
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Killing server with ID 0
+7: no heartbeat from server 0 - SERVER FAILED
+1: no heartbeat from server 0 - SERVER FAILED
+6: no heartbeat from server 0 - SERVER FAILED
+5: no heartbeat from server 0 - SERVER FAILED
+3: no heartbeat from server 0 - SERVER FAILED
+4: no heartbeat from server 0 - SERVER FAILED
+2: no heartbeat from server 0 - SERVER FAILED
+Active Servers:
+id: 1 FOLLOWER
+id: 2 FOLLOWER
+id: 3 FOLLOWER
+id: 4 FOLLOWER
+id: 5 FOLLOWER
+id: 6 LEADER
+
+Killing the leader, which should have ID 6
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//13173
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//25560
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//19475
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//24159
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//5618
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//3573
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//56
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//26932
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//24252
+2: no heartbeat from server 6 - SERVER FAILED
+2: switching from FOLLOWING to LOOKING
+1: no heartbeat from server 6 - SERVER FAILED
+1: switching from FOLLOWING to LOOKING
+5: no heartbeat from server 6 - SERVER FAILED
+5: switching from FOLLOWING to LOOKING
+1: switching from LOOKING to FOLLOWING
+5: switching from LOOKING to LEADING
+2: switching from LOOKING to FOLLOWING
+4: no heartbeat from server 6 - SERVER FAILED
+4: switching from FOLLOWING to LOOKING
+4: switching from LOOKING to FOLLOWING
+7: no heartbeat from server 6 - SERVER FAILED
+3: no heartbeat from server 6 - SERVER FAILED
+3: switching from FOLLOWING to LOOKING
+3: switching from LOOKING to FOLLOWING
+Active Servers:
+id: 1 FOLLOWER
+id: 2 FOLLOWER
+id: 3 FOLLOWER
+id: 4 FOLLOWER
+id: 5 LEADER
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+Response 200
+Hello World
+// yes, I know this isn't in the root
+// Stop yapping at me, this isn't supposed to be compiled
+public class Main{
+    public String run() {
+        return "Hello World";
+    }
+}
+//8005
+Response 200
+Hello World
+logs-2024-12-31-20_34/Gossiper-8900-Log.txt
+logs-2024-12-31-20_34/Gossiper-8900-heavy-Log.txt
+logs-2024-12-31-20_34/Gossiper-8903-Log.txt
+logs-2024-12-31-20_34/Gossiper-8903-heavy-Log.txt
+logs-2024-12-31-20_34/Gossiper-8906-Log.txt
+logs-2024-12-31-20_34/Gossiper-8906-heavy-Log.txt
+logs-2024-12-31-20_34/Gossiper-8909-Log.txt
+logs-2024-12-31-20_34/Gossiper-8909-heavy-Log.txt
+logs-2024-12-31-20_34/Gossiper-8912-Log.txt
+logs-2024-12-31-20_34/Gossiper-8912-heavy-Log.txt
+logs-2024-12-31-20_34/Gossiper-8915-Log.txt
+logs-2024-12-31-20_34/Gossiper-8915-heavy-Log.txt
+logs-2024-12-31-20_34/Gossiper-8918-Log.txt
+logs-2024-12-31-20_34/Gossiper-8918-heavy-Log.txt
+logs-2024-12-31-20_34/Gossiper-8921-Log.txt
+logs-2024-12-31-20_34/Gossiper-8921-heavy-Log.txt
